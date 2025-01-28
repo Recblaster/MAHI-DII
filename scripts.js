@@ -46,7 +46,7 @@ window.onload = function () {
             });
         } else if (frameIndex === 8) {
             createFloatingHearts();
-            createTextBox(frame, "I LOVE YOU 💚", "Hope You Liked this", function() {
+            createTextBox(frame, "Dii! I know it has been a very short time since we've met but i've enjoyed every moment with you. Irl i have only one cousin sister but she also lives far away, thats why I make new didis online 😂. Its my style of bday gifting my close ones. Blessed to be ur bro.  ~Yours ausom Iro_xD!😉", "Hope You Liked this", function() {
                 // No alert message here
             });
         }
