@@ -17,13 +17,13 @@ window.onload = function () {
         frame.className = "frame frame-" + frameIndex;
 
         if (frameIndex === 1) {
-            createTextBox(frame, "It's ur Special Day Yeyey!🥳", "Next", nextFrame);
+            createTextBox(frame, "It's your Special Day Yeyey!🥳", "Next", nextFrame);
         } else if (frameIndex === 2) {
-            createTextBox(frame, "Made something special for u, who is special to me🤗", "Next", nextFrame);
+            createTextBox(frame, "Made something special for you, who is special to me🤗", "Next", nextFrame);
         } else if (frameIndex === 3) {
             createTextBox(frame, "Wanna see what I've made?", "Let's Gooo 🥳", nextFrame);
         } else if (frameIndex === 4) {
-            createTextBox(frame, "Have a look at it madam jii😊", "Wait", async function() {
+            createTextBox(frame, "Have a look at it Mahi Dii😊", "Click And Wait", async function() {
                 await wait3Seconds();
                 nextFrame();
             });
@@ -35,18 +35,18 @@ window.onload = function () {
             });
         } else if (frameIndex === 6) {
             createButton(frame, "Decorate", function() {
-                createTextBox(frame, "🎉Happy Birthday Sharayu🎉", "Fly the balloons", nextFrame);
+                createTextBox(frame, "Happy Birthday Didi🤗", "Abhi toh aur hai", nextFrame);
                 addBalloons();
             });
         } else if (frameIndex === 7) {
-            createTextBox(frame, "Lets cut the cake Madam jiii!!", "🎂 SHARAYU", function() {
+            createTextBox(frame, "Lets cut the cake DII!!", "🎂 MAHI", function() {
                 showConfetti();
-                alert("🎉HAPPY BIRTHDAY SHARAYU🎉");
+                alert("🎉HAPPY BIRTHDAY MAHI DIDI🎉");
                 nextFrame();
             });
         } else if (frameIndex === 8) {
             createFloatingHearts();
-            createTextBox(frame, "Dii! I know it has been a very short time since we've met but i've enjoyed every moment with u. Irl i have only one cousin sister but she also lives far away, thats why I make new didis online 😂. Blessed to be ur bro. From the very first convo, ur kindness and caring nature made me feel like I’ve known u forever. I feel incredibly lucky to have crossed paths with u.So, on ur special day, I wanted to pour my heart out and let u know just how much u mean to me. u are a rare gem, and I am blessed to call u my Dii. Here's to many more joyful moments and cherished memories together. Happy Birthday, Dii! May ur day be filled with love, laughter, and everything ur heart desires. -urs ausom Iro_xD!😉", "Hope u Liked this", function() {
+            createTextBox(frame, "Dii! I know it has been a very short time since we've met but i've enjoyed every moment with you. Irl i have only one cousin sister but she also lives far away,ig thats why I make new didis online 😂. Blessed to be ur bro. From the very first convo, ur kindness and caring nature made me feel like I’ve known you forever. I feel incredibly lucky to have crossed paths with u.So, on ur special day, I wanted to pour my heart out and let u know just how much you mean to me. You are a rare gem, and I am blessed to call you my Dii. Here's to many more joyful moments and cherished memories together. Happy Birthday, Dii! May ur life be filled with love, laughter, and everything ur heart desires. -Yours ausom Iro_xD!😉", "Hope u Liked this", function() {
                 // No alert message here
             });
         }
