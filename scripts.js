@@ -46,7 +46,8 @@ window.onload = function () {
             });
         } else if (frameIndex === 8) {
             createFloatingHearts();
-            createTextBox(frame, "Dii! I know it has been a very short time since we've met but i've enjoyed every moment with you. Irl i have only one cousin sister but she also lives far away, thats why I make new didis online 😂. Its my style of bday gifting my close ones. Blessed to be ur bro.  ~Yours ausom Iro_xD!😉", "Hope You Liked this", function() {
+            createTextBox(frame, "Dii! I know it has been a very short time since we've met but i've enjoyed every moment with you. Irl i have only one cousin sister but she also lives far away, thats why I make new didis online 😂. Its my style of bday gifting my close ones. Blessed to be ur bro. From the very first conversation, your kindness and caring nature made me feel like I’ve known you forever. I feel incredibly lucky to have crossed paths with you. So, on your special day, I wanted to pour my heart out and let you know just how much you mean to me. You are a rare gem, and I am blessed to call you my Dii. Here's to many more joyful moments and cherished memories together. 
+Happy Birthday, Dii! May your day be filled with love, laughter, and everything your heart desires. ~Yours ausom Iro_xD!😉", "Hope You Liked this", function() {
                 // No alert message here
             });
         }
